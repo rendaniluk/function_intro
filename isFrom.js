@@ -1,4 +1,4 @@
-const assert = require('assert') //importing assert function to JS
+const assert = require('assert'); //importing assert function to JS
 //Declaring Function isFrom that takes two parameters and return boolean.
 function isFrom(licNumber, loc) {
   var regNum_Location  =licNumber.startsWith(loc)

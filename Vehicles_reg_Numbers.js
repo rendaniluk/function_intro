@@ -1,4 +1,4 @@
-const assert = require('assert') //importing assert function to JS
+const assert = require('assert'); //importing assert function to JS
 //Declaring functions
 //this function check if the car is from Bellville and return boolen
 var isFromBellville = function(lic){
@@ -32,10 +32,7 @@ console.log(isFromBellville('CY 833-221'), isFromLimpopo('DRT 122 GP'),
  isFromCapeTown('CA 822-958') );
  //testing functions using assert function
 assert.equal(isFromPaarl('DR 12 TY GP'),false);
-<<<<<<< HEAD
 assert.equal(isFromBellville('CY 833-221'),true);
 assert.equal(isFromGauteng('DRT 122 GP'),true);
 assert.equal(isFromLimpopo('BWA 758 L'),true);
 assert.equal(isFromCapeTown('CJ 58631'),false);
-=======
->>>>>>> 0e7b779a0e94f7a3903f1115cf01b962637a6c10

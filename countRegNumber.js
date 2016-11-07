@@ -1,4 +1,4 @@
-const assert = require('assert')//importing assertto js
+const assert = require('assert');//importing assertto js
 //declaring function
 var countRegNumber = function(regNum){
    str = regNum.split(",");
