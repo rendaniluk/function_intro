@@ -1,8 +1,12 @@
+const assert = require('assert');
+
 var yearsAgo = function(year){
-  var theYear = new Date(year);
-  var yearthen = theYear.getFullYear();
-  return yearthen;
+  var presentyear = 2016,
+      yearback = year.getFullYear();
+  return presentyear - yearback;
   };
 
-yearback=yearsAgo(2016);
-console.log(yearback);
+console.log(yearsAgo(new Date('2001')));
+
+assert.equal(yearsAgo(new Date('1989')),27);
+assert.equal(yearsAgo(new Date('2014')),2);
