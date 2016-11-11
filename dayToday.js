@@ -1,3 +1,4 @@
+const assert = require('assert')
 var dayToday = function(){
   var today = new Date();
   return today;
@@ -5,3 +6,4 @@ var dayToday = function(){
 
 var aday = dayToday();
 console.log(aday);
+assert.equal(dayToday(),Date())
